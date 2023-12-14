@@ -1,0 +1,11 @@
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blackbox{
+  width:50%;
+  height:200px;
+  background-color: hsl(0, 0%, 0%);
+  text-align: center;
+}

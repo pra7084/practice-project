@@ -9,7 +9,7 @@ const Concepts = () => {
   const DummyData = [
     {
       img: comp,
-      heading: <h1>Components</h1>,
+      heading: <p>Components</p>,
       para: (
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
@@ -19,7 +19,7 @@ const Concepts = () => {
     },
     {
       img:  jsx,
-      heading: <h1>JSX</h1>,
+      heading: <p>JSX</p>,
       para: (
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
@@ -29,7 +29,7 @@ const Concepts = () => {
     },
     {
       img: props,
-      heading: <h1>Props</h1>,
+      heading: <p>Props</p>,
       para: (
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
@@ -39,7 +39,7 @@ const Concepts = () => {
     },
     {
       img:  state ,
-      heading: <h1>State</h1>,
+      heading: <p>State</p>,
       para: (
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ut
@@ -52,8 +52,16 @@ const Concepts = () => {
     <>
       <div className="outer">
         <div className="blackbox">
-          <h1>Core Concepts</h1>
-          <ConceptDes data={DummyData[0]} />
+          <div className="core">Core Concepts</div>
+          <div className="conceptdes">
+                 <ConceptDes data={DummyData[0]} />
+          <ConceptDes data={DummyData[1]} />
+           <ConceptDes data={DummyData[2]} />
+            {/* <ConceptDes data={DummyData[3]} /> */}
+          
+          </div>
+     
+         
         </div>
       </div>
     </>

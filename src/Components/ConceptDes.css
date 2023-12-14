@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+img{
+    width:150px;
+    height:150px;
+    object-fit: contain;
+    padding:0px;
+    margin:0px;
+}
+.heading{
+font-family: 'Courier New', Courier, monospace;
+font-size: 1.5rem;
+margin:10px;
+}
+.para{
+margin:0 15px 15px 15px;
+}
+.concepts{
+    width:17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+}

@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.buttons{
+display: flex;
+
+}
+.example{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:600;
+    margin:60px 15px 0 15px;
+}
+button{
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color:white;
+    margin:20px;
+}
+.content{
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  margin:15px 15px 15px 15px;
+}

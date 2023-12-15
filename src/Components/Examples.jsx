@@ -34,7 +34,9 @@ const Examples = () => {
   };
   return (
     <>
-      <div className="example">Examples</div>
+    <div className="wrapper">
+      <div className="example">
+        <h3>Examples</h3>
       <div className="buttons">
         <div>
           <button onClick={compClickHandler}>Component</button>
@@ -86,7 +88,10 @@ const Examples = () => {
           is used to change the state class is rerender itself. Let’s see with
           the help of an example:
         </div>
+        
       )}
+      </div>
+      </div>
     </>
   );
 };

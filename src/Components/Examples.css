@@ -29,7 +29,16 @@ button{
     margin:20px;
 }
 .content{
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Courier New', Courier, monospace;
   margin:15px 15px 20px 20px;
+  background-color:rgb(53, 53, 53);
+  padding:20px;
+  border-radius: 10px;
+  
+}
+.content-wrapper{
+    width:100%;
+    height:auto;
+    background-color: black;
 }

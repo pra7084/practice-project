@@ -17,7 +17,7 @@ const Examples = () => {
         <h3>Examples</h3>
       <div className="buttons">
         <div>
-          <button onClick={()=>clickHandler('component')}>Component</button>
+          <button className="active" onClick={()=>clickHandler('component')}>Component</button>
         </div>
         <div>
           <button onClick={()=>clickHandler('jsx')}>JSX</button>

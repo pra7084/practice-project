@@ -21,10 +21,6 @@ const Concepts = () => {
             {DummyData.map((item, index) => (
               <ConceptDes key={index} data={item} />
             ))}
-
-            {/* // <ConceptDes data={DummyData[1]} /> */}
-            {/* //  <ConceptDes data={DummyData[2]} /> */}
-            {/* <ConceptDes data={DummyData[3]} /> */}
           </div>
         
         </div>
